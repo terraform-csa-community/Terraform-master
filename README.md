@@ -38,6 +38,9 @@ If you are just getting started there is no better place than the Hashicorp lear
 
 **More Here:** https://learn.hashicorp.com/terraform?track=azure#azure
 
+We recommend watching the introductory whiteboard sessions on Terraform by Hashicorps own CTO:
+
+[![](http://img.youtube.com/vi/h970ZBgKINg/0.jpg)](http://www.youtube.com/watch?v=h970ZBgKINg "Introduction to HashiCorp Terraform with Armon Dadgar")
 
 
 ## Using Terraform with Azure
