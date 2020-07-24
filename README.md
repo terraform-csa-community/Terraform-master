@@ -9,6 +9,8 @@ More and more financial services customers are turning to declaritive languages 
 The below guide will walk you through all you need to get started on your terraform journey.
 
 ### Index
+[How to use this community](#How-to-use-this-community)
+
 [Getting Started With Terraform](#Getting-Started-With-Terraform)
 
 [Using Terraform With Azure](#Using-Terraform-with-Azure)
@@ -21,11 +23,24 @@ The below guide will walk you through all you need to get started on your terraf
 
 [Links to Community Repos](#Links-to-Community-Repos)
 
+## How to use this community
+There are 3 primary directories in this repository: Demos, Patterns & Sucssess Stories. 
+
+**Demos** - The artifacts in this directory will comprise of sample terraform scripts that enable you to and your customer to quickly spin up a POC environment for service evaluations. The Terraform configurations in this directory will be generic and are not intended to be used in production. Any configuration added to this directory should be generalized and simple. The goal is to quickly spin up foundational services with the anticipation of further modifying them after the fact. 
+
+**Patterns** - This directory will focus on configurations that are specific to industry adopted patterns in architecture design. These will be opinion driven configurations with incorporated best practices. The goal is to provide customers near production ready implementations of common architectures. Any configuration added to this directory will be peer reviewed by a group of industiry CSAs to ensure quality and alignment.
+
+**Success Stories** - This directory will house previously successfully customer deployed workloads in the form of a matching configuration file. Customers are constantly finding creative ways to leverage cloud to meet business needs. Often these needs are not unique and the goal with these configurations are to reduce duplication of effort when it comes to implementing specific customer scenarios. This directory will only be updated with verfieid and published customer success stories for right now. 
+
+
 ## Getting Started With Terraform
 If you are just getting started there is no better place than the Hashicorp learn site that will walk you though the fundamentals of Terraform as well as allow you to get your first deployment up and running.
 
 **More Here:** https://learn.hashicorp.com/terraform?track=azure#azure
 
+We recommend watching the introductory whiteboard sessions on Terraform by Hashicorps own CTO:
+
+[![](http://img.youtube.com/vi/h970ZBgKINg/0.jpg)](http://www.youtube.com/watch?v=h970ZBgKINg "Introduction to HashiCorp Terraform with Armon Dadgar")
 
 
 ## Using Terraform with Azure
