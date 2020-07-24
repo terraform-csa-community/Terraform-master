@@ -31,9 +31,9 @@ variable "windows-vm-size" {
   default     = "Standard_B1s"
 }
 
-##############
+
 ## OS Image ##
-##############
+
 
 # Windows Server 2019 SKU used to build VMs
 variable "windows-2019-sku" {
