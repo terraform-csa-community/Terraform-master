@@ -52,12 +52,12 @@ Section to be updated soon.
 Section to be updated soon.
 ## Advanced Terraform Concepts
 
-Section to be updated soon.
+Gagan to update
 
 ## Terraform Best Practices
 
-Section to be updated soon.
+Gagan to update
 
 ## Links to Community Repos
 
-Section to be updated soon.
+https://github.com/terraform-providers
