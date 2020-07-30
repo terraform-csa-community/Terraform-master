@@ -52,7 +52,9 @@ Section to be updated soon.
 Section to be updated soon.
 ## Advanced Terraform Concepts
 
-Gagan to update
+Terraform has documented recommended practices for advanced scenarios which can be found on the below link. Please review the document after familiarizing with basic usage of Terraform
+
+https://www.terraform.io/docs/cloud/guides/recommended-practices/index.html
 
 ## Terraform Best Practices
 
