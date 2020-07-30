@@ -2,9 +2,9 @@
 
 More and more financial services customers are turning to declarative languages to help standardize their cloud deployments at scale. Terraform has begun to emerge as one of the go-to languages for companies that want to adopt Infrastructure as Code (IAC) within their Hybrid/Multi cloud environments. Terraform is a tool created by Hashicorp which has a deep partnership with Microsoft. This partnership has lead to an extremely robust Azure Provider (AzureRM) as well as integration directly into our Cloud Shell service. The purpose of this community is 3-fold:
 
-1) We want to provide a space where CSAs can skill up on Terraform, providing field readiness for engagement with customers.\
-2) We want to provide a repository of artifacts for quick and repeatable customer demos.
-3) We want to provide artifacts based on real world industry patterns that customers can use with little to no modifications.
+1) We want to provide a space where CSAs can skill up on Terraform, providing field readiness for engagement with customers
+2) We want to provide a repository of artifacts for quick and repeatable customer demos
+3) We want to provide artifacts based on real world industry patterns that customers can use with little to no modifications
 
 The below guide will walk you through all you need to get started on your terraform journey.
 
