@@ -43,7 +43,9 @@ We also recommend watching the introductory whiteboard session on Terraform by H
 
 ## Using Terraform with Azure
 
-Section to be updated soon.
+The following document shows how Terraform can be configured for Azure
+
+https://docs.microsoft.com/en-us/azure/developer/terraform/get-started-cloud-shell
 
 ## Setting up your Terraform environment
 
