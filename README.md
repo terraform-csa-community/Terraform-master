@@ -9,7 +9,7 @@ More and more financial services customers are turning to declarative languages 
 The below guide will walk you through all you need to get started on your terraform journey.
 
 ### Index
-[How to use this community] (#How-to-use-this-community)
+[How to use this community] (#how-to-use-this-community)
 
 [Getting Started With Terraform] (#Getting-Started-With-Terraform)
 
