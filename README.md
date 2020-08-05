@@ -49,7 +49,12 @@ https://docs.microsoft.com/en-us/azure/developer/terraform/get-started-cloud-she
 
 ## Setting up your Terraform environment
 
-Section to be updated soon.
+**Cloud Shell:**  Info on configuring your Cloud Shell environment can be found here: https://docs.microsoft.com/en-us/azure/developer/terraform/get-started-cloud-shell
+
+**General Install:** For OS based installation instructions, you can follow the documentation here: https://learn.hashicorp.com/terraform/getting-started/install.html
+
+**Additional Info:** This repository is configured to ignore "*.tfstate" and "*.tfvars" files. It is recommended to always initialize and execute commands against configuration files in your working directory. 
+
 ## Advanced Terraform Concepts
 
 Terraform has documented recommended practices for advanced scenarios which can be found on the below link. Please review the document after familiarizing with basic usage of Terraform
