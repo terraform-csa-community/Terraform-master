@@ -9,19 +9,19 @@ More and more financial services customers are turning to declarative languages 
 The below guide will walk you through all you need to get started on your terraform journey.
 
 ### Index
-[How to use this community] (#how-to-use-this-community)
+[How to use this community](#how-to-use-this-community)
 
-[Getting Started With Terraform] (#Getting-Started-With-Terraform)
+[Getting Started With Terraform](#Getting-Started-With-Terraform)
 
-[Using Terraform With Azure] (#Using-Terraform-with-Azure)
+[Using Terraform With Azure](#Using-Terraform-with-Azure)
 
-[Setting up your Terraform environment] (#Setting-up-your-Terraform-environment)
+[Setting up your Terraform environment](#Setting-up-your-Terraform-environment)
 
-[Advanced Terraform Concepts] (#Advanced-Terraform-Concepts)
+[Advanced Terraform Concepts](#Advanced-Terraform-Concepts)
 
-[Terraform Best Practices] (#Terraform-Best-Practices)
+[Terraform Best Practices](#Terraform-Best-Practices)
 
-[Links to Community Repos] (#Links-to-Community-Repos)
+[Links to Community Repos](#Links-to-Community-Repos)
 
 ## How to use this community
 There are 3 primary directories in this repository: Demos, Patterns & Success Stories. 
