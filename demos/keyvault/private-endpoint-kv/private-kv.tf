@@ -7,10 +7,10 @@ terraform {
 provider "azurerm" {
   version = ">=2.21.0"
   features{}
-  subscription_id = "9441dac5-d868-410e-90a1-ed33727384e5"
-  client_id       = "feea1e62-ecf9-4e4d-a959-4b3eba402c98"
-  client_secret   = "1d808d4b-340e-453b-8abc-0369134be927"
-  tenant_id       = "72f988bf-86f1-41af-91ab-2d7cd011db47"
+  subscription_id = "XXXXXXXX"
+  client_id       = "XXXXXXXXX"
+  client_secret   = "XXXXXXXXX"
+  tenant_id       = "XXXXXXXXX"
 }
 
 resource "azurerm_resource_group" "private-example-kv" {
