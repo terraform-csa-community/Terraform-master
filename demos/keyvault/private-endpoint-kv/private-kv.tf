@@ -43,7 +43,7 @@ resource "azurerm_key_vault" "example-kv" {
   name                        = "${random_string.random.result}-examplekv"
   location                    = var.location
   resource_group_name         = var.resource_group_name
-  tenant_id                   = "72f988bf-86f1-41af-91ab-2d7cd011db47"
+  tenant_id                   = "XXXXXX"
  
   sku_name = "standard"
 }
