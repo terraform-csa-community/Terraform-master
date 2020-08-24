@@ -1,0 +1,51 @@
+trigger:
+  branches:
+    include:
+    - master
+    
+variables:
+  STORAGE_ACCOUNT:    "" 
+  AKS_RG_NAME:        ""
+  ACR_NAME:           ""
+  CLIENT_ID:          ""
+  SUBSCRIPTION_ID:    ""
+  TENANT_ID:          ""
+
+stages:
+- stage: Build
+  jobs: 
+  - job: 'Publish_Files'
+    pool:
+      vmImage: 'Ubuntu 18.04'
+    steps:
+    - task: CopyFiles@2
+      inputs:
+        SourceFolder: Deploy
+        TargetFolder: '$(build.artifactstagingdirectory)/Deploy'
+    - task: CopyFiles@2
+      inputs:
+        SourceFolder: Code
+        TargetFolder: '$(build.artifactstagingdirectory)/Code'
+    - task: PublishBuildArtifacts@1
+   
+- stage: DeployEnvironment
+  jobs:
+  - deployment: 'Build_AKS'
+    pool:
+      vmImage: 'Ubuntu 18.04'
+    environment: 'AKS'
+    strategy:
+      runOnce:
+        deploy:
+          steps:
+          - task: DownloadPipelineArtifact@2
+            inputs:
+              buildType: 'current'
+              targetPath: '$(System.ArtifactsDirectory)/'
+            displayName: Get Artifacts 
+
+          - task: Bash@3
+            displayName: Build Cluster
+            inputs:
+              filePath: '$(Agent.BuildDirectory)/drop/Deploy/create_cluster.sh'
+              arguments: '"$(AKS_RG_NAME)" "production" "$(access_key)" "$(client_secret)"'
