@@ -16,7 +16,7 @@ resource "azurerm_key_vault" "cmk-kv" {
   location                    = azurerm_resource_group.rg.location
   resource_group_name         = azurerm_resource_group.rg.name
   tenant_id                   = data.azurerm_client_config.current.tenant_id
-  sku_name = "standard"
+  sku_name                    = "standard"
   purge_protection_enabled    = true
 }
 
@@ -37,7 +37,7 @@ resource "azurerm_key_vault_access_policy" "user_access_policy" {
 resource "azurerm_key_vault_access_policy" "recovery_vault_access_policy" {
   key_vault_id = azurerm_key_vault.cmk-kv.id
   tenant_id    = data.azurerm_client_config.current.tenant_id
-  object_id = azurerm_recovery_services_vault.vault-with-cmk.identity[0].principal_id
+  object_id    = azurerm_recovery_services_vault.vault-with-cmk.identity[0].principal_id
 
   key_permissions = [
       "Get",

@@ -3,7 +3,7 @@ variable location {
 }
 
 variable resource_group_name {
-    default = "azure-backup-cmk-demoaa-rg"
+    default = "azure-backup-cmk-demo-rg"
 }
 
 
