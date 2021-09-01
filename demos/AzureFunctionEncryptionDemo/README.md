@@ -13,6 +13,7 @@ The goal of this demo is to show how Azure Functions and Event Hub scalability c
 
 ## How does it look at a high level?
 Architecture overview:
+
 ![architecture-overview](architecture-overview.png)
 
 ## How does it work at a high level?
